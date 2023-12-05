@@ -19,6 +19,8 @@ class Match:
         for i in range(trials):
             self.results.append(self.run_game())
 
+        self.interpret_results(self.results)
+
 
     
     def run_game(self):
